@@ -16,7 +16,7 @@ const Shop = () => {
       dispatch(setCategories(categoriesArray));
     };
 
-    setCategories();
+    getCategoriesMap();
   }, [dispatch]);
 
   return (
